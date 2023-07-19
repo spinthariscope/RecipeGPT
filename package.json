@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "build:digitalocean": "npm run dev"
+    "build:digitalocean": "npm run dev --host 0.0.0.0 --port 8080"
   },
   "dependencies": {
     "react": "^18.2.0",
